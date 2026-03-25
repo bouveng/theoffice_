@@ -12,7 +12,7 @@ The Board holds legal responsibility and ultimate authority over the autonomous 
 | Dalesjö | 395265200367992843 | Board member | All scopes |
 | Cedergren-Malmqvist | TBD | Board member | All scopes |
 | Lundkvist | TBD | Board member | All scopes |
-| Wladyko | TBD | Board member | All scopes |
+| Wladyko | 395307506991235079 | Board member | All scopes |
 | Zaleski | TBD | Board member | All scopes |
 
 *Discord IDs to be filled in as members are onboarded. Only members with a confirmed Discord ID are eligible to cast binding votes.*
