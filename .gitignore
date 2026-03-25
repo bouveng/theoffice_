@@ -1,0 +1,6 @@
+# Model files — large binaries, never commit
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
