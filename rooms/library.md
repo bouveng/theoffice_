@@ -110,5 +110,16 @@ Bot management for CEO and CTO bots.
 
 ---
 
-*Last updated: 2026-03-25 by main agent*
+## Customers
+
+Customer profiles are stored in `projects/@theoffice_/customers/<company-name>.md`.
+Each file contains: company summary, contact, fit assessment, notes.
+
+| Company | Contact | Status | File |
+|---|---|---|---|
+| Templ.io | Emanuel Tammelin (CEO) | Potential | `customers/templ.md` |
+
+---
+
+*Last updated: 2026-03-25 by CTO*
 *To add an entry: append to the relevant section with name, one-line description, and URL.*
