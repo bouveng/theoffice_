@@ -2,7 +2,7 @@
 **Status:** v1.0 — Draft for CEO review
 **Author:** CTO
 **Date:** 2026-03-25
-**Depends on:** `ARCHITECTURE.md`, `COMMS_PROTOCOL.md`
+**Depends on:** `docs/ARCHITECTURE.md`, `docs/COMMS_PROTOCOL.md`
 
 ---
 
@@ -257,8 +257,8 @@ Two failure modes this protocol prevents:
 
 As of 2026-03-25, no memory files exist. The first entries to be written are the decisions made during this architecture session:
 
-1. Architecture baseline established (`ARCHITECTURE.md`)
-2. Comms protocol established (`COMMS_PROTOCOL.md`)
+1. Architecture baseline established (`docs/ARCHITECTURE.md`)
+2. Comms protocol established (`docs/COMMS_PROTOCOL.md`)
 3. Memory protocol established (this document)
 4. CAO as sole ChromaDB write gateway — standing architectural decision
 
@@ -266,5 +266,5 @@ These will be written to `memory/2026-03-25.md` and indexed in `MEMORY.md` immed
 
 ---
 
-*Depends on: `ARCHITECTURE.md`, `COMMS_PROTOCOL.md`*
+*Depends on: `docs/ARCHITECTURE.md`, `docs/COMMS_PROTOCOL.md`*
 *Next: Security audit baseline + Identity configuration (parallel tracks)*

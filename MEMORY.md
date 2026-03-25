@@ -6,7 +6,7 @@ For retrieval: run `memory_search` before starting any task with cross-session c
 ---
 
 ## 2026-03-25 — Architecture baseline established
-- **Decision:** `ARCHITECTURE.md` is the authoritative system diagram and agent contract reference.
+- **Decision:** `docs/ARCHITECTURE.md` is the authoritative system diagram and agent contract reference.
 - **Rationale:** Single source of truth for system topology, agent registry, orchestration layer, and platform status.
 - **Owner:** CTO
 - **Ref:** memory/2026-03-25.md#architecture-baseline | task_id: ceo-20260325-001
@@ -18,7 +18,7 @@ For retrieval: run `memory_search` before starting any task with cross-session c
 - **Ref:** memory/2026-03-25.md#comms-protocol | task_id: ceo-20260325-002
 
 ## 2026-03-25 — Memory protocol established
-- **Decision:** `MEMORY_PROTOCOL.md` defines write standards, file naming, store taxonomy, and retention rules for all memory stores.
+- **Decision:** `docs/MEMORY_PROTOCOL.md` defines write standards, file naming, store taxonomy, and retention rules for all memory stores.
 - **Rationale:** Unwritten decisions do not exist as far as the swarm is concerned. Protocol enforces discipline.
 - **Owner:** CTO
 - **Ref:** memory/2026-03-25.md#memory-protocol | task_id: ceo-20260325-003
