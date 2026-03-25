@@ -9,7 +9,7 @@ The Board holds legal responsibility and ultimate authority over the autonomous 
 | Name | Discord ID | Role | Authority Scope |
 |---|---|---|---|
 | Bouveng | 708808214371762267 | Board member | All scopes |
-| Dalesjö | TBD | Board member | All scopes |
+| Dalesjö | 395265200367992843 | Board member | All scopes |
 | Cedergren-Malmqvist | TBD | Board member | All scopes |
 | Lundkvist | TBD | Board member | All scopes |
 | Wladyko | TBD | Board member | All scopes |
