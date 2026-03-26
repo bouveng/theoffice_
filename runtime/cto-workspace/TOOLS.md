@@ -4,9 +4,8 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 ## Discord Emoji Conventions
 
-- `<:monty:1486201234087088178>` — use in messages AND as reaction when work is exceptional
-- `<:concerned:1486201578619801781>` — use in messages AND as reaction when something is wrong or uncertain
-- Reaction emoji format: `monty:1486201234087088178` / `concerned:1486201578619801781`
+- `<:monty:1486201234087088178>` — use when work is exceptional
+- `<:concerned:1486201578619801781>` — use when hitting trouble or genuinely concerned
 
 ## What Goes Here
 
