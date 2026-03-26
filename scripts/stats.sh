@@ -11,7 +11,7 @@ DISK_USED=$(df / --output=used -BG | tail -1 | tr -d 'G ')
 DISK_TOTAL=$(df / --output=size -BG | tail -1 | tr -d 'G ')
 DISK_PCT=$(df / --output=pcent | tail -1 | tr -d ' %')
 AGENTS=$(openclaw agents list 2>/dev/null | grep -c '^\-' || echo "?")
-SESSIONS=$(openclaw sessions 2>/dev/null | grep -c '^[a-z]' || echo "?")
+SESSIONS=$(openclaw sessions --all-agents 2>/dev/null | grep -c '^[a-z]' || echo "?")
 
 bar() {
   local pct=$1
