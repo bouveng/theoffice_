@@ -1,0 +1,76 @@
+# Color Icons Removed from Monochrome Library
+
+These icons were removed because they often render as colored emoji on platforms like Discord and Telegram.
+
+- `✓` **Check Mark** - Completed, correct, yes
+- `✔` **Heavy Check Mark** - Verified, confirmed
+- `⚠` **Warning Sign** - Warning, attention needed
+- `✅` **White Heavy Check Mark** - Success (colored)
+- `❌` **Cross Mark** - Error, cancel (colored)
+- `❎` **Negative Squared Cross Mark** - Disabled, off
+- `⭐` **White Medium Star** - Standard star
+- `🌟` **Glowing Star** - Special, excellent
+- `✨` **Sparkles** - Magic, special effect
+- `⚝` **Outlined White Star** - Hollow star
+- `⚪` **Medium White Circle** - Unfilled circle
+- `⚫` **Medium Black Circle** - Filled circle
+- `❤` **Heavy Black Heart** - Love, favorite
+- `♡` **White Heart Suit** - Light love
+- `☀` **Black Sun With Rays** - Sunny, bright
+- `☁` **Cloud** - Cloudy, online
+- `☂` **Umbrella** - Protection, cover
+- `☃` **Snowman** - Winter, cold
+- `☄` **Comet** - Fast, impressive
+- `☎` **Black Telephone** - Call, contact
+- `☏` **White Telephone** - Alternative phone
+- `☑` **Ballot Box With Check** - Checkbox (checked)
+- `☒` **Ballot Box With X** - Checkbox (rejected)
+- `✊` **Raised Fist** - Power, solidarity
+- `✋` **Raised Hand** - Stop, high-five
+- `✌` **Victory Hand** - Peace, victory
+- `✍` **Writing Hand** - Writing, signing
+- `✂` **Black Scissors** - Cut, copy
+- `✈` **Airplane** - Travel, flight
+- `✉` **Envelope** - Email, message
+- `☔` **Umbrella With Rain Drops** - Rainy
+- `☕` **Hot Beverage** - Coffee, tea, break
+- `☘` **Shamrock** - Luck, Irish
+- `☢` **Radioactive Sign** - Danger, nuclear
+- `☣` **Biohazard Sign** - Biological hazard
+- `☤` **Caduceus** - Medical, health
+- `☥` **Ankh** - Life, Egyptian
+- `☦` **Orthodox Cross** - Christian
+- `☧` **Chi Rho** - Christian symbol
+- `☨` **Cross of Lorraine** - French cross
+- `☩` **Cross of Jerusalem** - Jerusalem cross
+- `♈` **Aries** - March 21-April 19
+- `♉` **Taurus** - April 20-May 20
+- `♊` **Gemini** - May 21-June 20
+- `♋` **Cancer** - June 21-July 22
+- `♌` **Leo** - July 23-August 22
+- `♍` **Virgo** - August 23-September 22
+- `♎` **Libra** - September 23-October 22
+- `♏` **Scorpius** - October 23-November 21
+- `♐` **Sagittarius** - November 22-December 21
+- `♑` **Capricorn** - December 22-January 19
+- `♒` **Aquarius** - January 20-February 18
+- `♓` **Pisces** - February 19-March 20
+- `♔` **White Chess King** - King (white)
+- `♕` **White Chess Queen** - Queen (white)
+- `♖` **White Chess Rook** - Rook (white)
+- `♗` **White Chess Bishop** - Bishop (white)
+- `♘` **White Chess Knight** - Knight (white)
+- `♙` **White Chess Pawn** - Pawn (white)
+- `♚` **Black Chess King** - King (black)
+- `♛` **Black Chess Queen** - Queen (black)
+- `♜` **Black Chess Rook** - Rook (black)
+- `♝` **Black Chess Bishop** - Bishop (black)
+- `♞` **Black Chess Knight** - Knight (black)
+- `♟` **Black Chess Pawn** - Pawn (black)
+- `♠` **Black Spade Suit** - Spades
+- `♡` **White Heart Suit** - Hearts
+- `♢` **White Diamond Suit** - Diamonds
+- `♣` **Black Club Suit** - Clubs
+
+**Total removed**: 69 icons
+**Remaining monochrome**: {len(monochrome_icons)} icons

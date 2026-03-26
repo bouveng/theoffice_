@@ -1,45 +1,83 @@
 # UTF-8 Icon Library for Chat Applications
 
 ## Overview
-A comprehensive library of UTF-8 icons organized for easy use by agents in chat applications (Discord, Telegram, Signal, WhatsApp, etc.). All icons are copy-paste ready and tested for cross-platform compatibility.
+A comprehensive library of UTF-8 icons organized for easy use by agents in chat applications (Discord, Telegram, Signal, WhatsApp, etc.). Now available in two versions:
+
+### **Version 1: Full Library** (includes all icons)
+- `utf8-icons-full.md` - Complete library with 168 icons (includes color-rendering icons)
+- `quick-reference-full.md` - Top icons from full library
+
+### **Version 2: Monochrome Library** (color icons removed)
+- `utf8-icons-monochrome.md` - Filtered library with 99 monochrome-only icons
+- `quick-reference-monochrome.md` - Top monochrome icons
+- `color-icons-removed.md` - List of 69 icons removed for color rendering
+
+## Why Two Versions?
+
+### Color Rendering Issue
+Some UTF-8 icons render as **colored emoji** on platforms like Discord and Telegram, while others render as **monochrome text**. This causes inconsistent appearance across platforms.
+
+### Solution
+1. **Full Library**: Use when you want all available icons, don't mind color variations
+2. **Monochrome Library**: Use when you need consistent black/white display across all platforms
 
 ## Files
 
 ### Primary Files
-- **`utf8-icons.md`** - Complete library with 300+ icons organized by category
-- **`quick-reference.md`** - Top 50 most useful icons with ready-to-use templates
+- **`utf8-icons-full.md`** - Complete library (168 icons, includes color)
+- **`utf8-icons-monochrome.md`** - Filtered library (99 icons, monochrome only)
+- **`quick-reference-full.md`** - Top icons from full library
+- **`quick-reference-monochrome.md`** - Top monochrome icons
+
+### Reference Files
+- **`color-icons-removed.md`** - List of 69 icons removed from monochrome version
+- **`color-filter.py`** - Python script used for filtering
 
 ### Raw Data
 - **`raw/arrows.md`** - Raw arrow icons from utf8icons.com
 - **`raw/dingbats.md`** - Raw dingbat icons from utf8icons.com
 - **`raw/miscellaneous-symbols.md`** - Raw miscellaneous symbols
 
-### Scripts
-- **`fetch_icons.py`** - Python script for fetching and processing icons (reference implementation)
-
 ## Usage
 
 ### For Agents
-1. **Copy-paste**: Simply copy any icon and paste into your chat application
-2. **Search**: Use Ctrl+F to find icons by name, category, or function
-3. **Templates**: Use the ready-made templates in `quick-reference.md`
+1. **Choose version** based on your needs:
+   - **Monochrome**: `utf8-icons-monochrome.md` for consistent display
+   - **Full**: `utf8-icons-full.md` for maximum icon selection
 
-### Categories Included
-- **Navigation & Direction**: Arrows, pointers, movement
-- **Status & Feedback**: Check marks, crosses, warnings
-- **Stars & Ratings**: Stars, circles, rating symbols
-- **Common Symbols**: Hearts, weather, objects
-- **Hands & Gestures**: Pointing hands, gestures
-- **Tools & Objects**: Scissors, pencils, envelopes
+2. **Copy-paste**: Simply copy any icon and paste into your chat application
+3. **Search**: Use Ctrl+F to find icons by name, category, or function
+4. **Templates**: Use the ready-made templates in quick reference files
+
+### Categories Included (Monochrome Version)
+- **Navigation & Direction**: Arrows, pointers (monochrome variants)
+- **Status & Feedback**: Check marks, crosses (text versions)
 - **Mathematical & Technical**: Math symbols, technical icons
-- **Zodiac & Astrology**: Zodiac signs
-- **Chess & Cards**: Chess pieces, card suits
 - **Box Drawing & Blocks**: Box drawing characters, blocks
-- **Dingbats & Decorative**: Decorative symbols, flourishes
+- **Letterlike Symbols**: Symbols that resemble letters
+- **Miscellaneous**: Other monochrome symbols
+
+### Categories Removed (Color Version Only)
+- Colored check marks (✅, ✔)
+- Colored crosses (❌, ❎)
+- Colored stars (⭐, 🌟, ✨)
+- Colored hearts (❤)
+- Colored weather symbols (☀, ☁, ☂)
+- Colored hands and gestures (✊, ✋, ✌)
+- Colored zodiac signs
+- Colored chess pieces and card suits
 
 ## Quick Start
 
-### Most Useful Icons
+### Monochrome Icons (Recommended for Consistency)
+```
+Navigation: ← ↑ → ↓ ↔ ↕
+Status: ✓ ✗ ✘
+Box Drawing: ┌ ┐ └ ┘ ├ ┤ ┬ ┴ ┼
+Mathematical: × ÷ ± ≠ ≈
+```
+
+### Full Icons (Includes Color)
 ```
 Navigation: ← ↑ → ↓ ↔ ↕
 Status: ✓ ✔ ✗ ✘ ⚠ ✅ ❌
@@ -47,52 +85,44 @@ Stars: ★ ☆ ⭐ 🌟 ✨
 Common: ❤ ♡ ☀ ☁ ☂ ☃
 ```
 
-### Ready-to-Use Templates
-```markdown
-Status: ✅ Complete | ⚠ Pending | ✗ Failed
-Progress: ▰▰▰▰▱ 80% complete
-Navigation: ← Back | ↑ Up | → Next | ↓ Down
-Rating: ★★★★★ (5 stars)
-```
-
 ## Platform Compatibility
 
-| Platform | Support | Notes |
-|----------|---------|-------|
-| Discord | Excellent | All icons work, some render as colored emoji |
-| Telegram | Excellent | Consistent rendering, ideal for status indicators |
-| WhatsApp | Good | Basic icons work, complex icons may not render |
-| Signal | Good | Consistent rendering, ideal for simple icons |
-| Slack | Good | Most icons work, some platform-specific rendering |
+| Platform | Monochrome Icons | Color Icons |
+|----------|------------------|-------------|
+| Discord | Consistent black/white | Render as colored emoji |
+| Telegram | Consistent black/white | Render as colored emoji |
+| WhatsApp | Consistent | May render as colored |
+| Signal | Consistent | May render as colored |
+| Slack | Consistent | May render as colored |
 
 ## Best Practices
 
-1. **Consistency**: Use the same icon for the same action throughout
-2. **Accessibility**: Don't rely solely on icons; include text when possible
-3. **Spacing**: Add spaces around icons for better readability
-4. **Testing**: Test icon rendering in target platform before widespread use
-5. **Moderation**: Use icons sparingly for clean, readable messages
+1. **For professional/business use**: Use **monochrome** version for consistency
+2. **For casual/fun use**: Use **full** version for colorful expressions
+3. **Testing**: Always test icon rendering in your target platform
+4. **Documentation**: Note which version you're using in your projects
 
 ## Source & Updates
 
 - **Source**: utf8icons.com
-- **Method**: Firecrawl web fetching with manual organization
+- **Filtering**: Custom Python script (`color-filter.py`)
 - **Last updated**: 2026-03-26
-- **Total icons**: 300+ organized icons
-- **Expansion**: Can be expanded with additional subsets as needed
+- **Total icons (full)**: 168 organized icons
+- **Total icons (monochrome)**: 99 filtered icons
+- **Color icons removed**: 69 icons
 
 ## License
 This icon library is compiled from publicly available UTF-8 characters. Icons can be freely used in chat applications, documentation, and user interfaces.
 
 ## Contributing
-To add more icons:
-1. Fetch new subsets from utf8icons.com using Firecrawl
-2. Add to appropriate categories in `utf8-icons.md`
-3. Update `quick-reference.md` if new icons are highly useful
-4. Save raw data in `raw/` directory for reference
+To update or expand the library:
+1. Fetch new subsets from utf8icons.com
+2. Add to `utf8-icons-full.md`
+3. Run `python3 color-filter.py` to update monochrome version
+4. Update documentation
 
 ## Notes
-- All icons are UTF-8 encoded and work on modern systems
-- Some icons may render differently across platforms
-- Test in your target environment before production use
+- Monochrome version ensures consistent cross-platform display
+- Full version provides maximum icon selection
+- Always test in your target environment before production use
 - Bookmark or save locally for quick access during chat operations
