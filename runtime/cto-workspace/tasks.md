@@ -12,6 +12,7 @@
 - [x] Initial task list created (2026-03-26)
 - [x] Domain analysis: theoffice.ltd resolves but shows 502 Bad Gateway (2026-03-26)
 - [x] Instance network configuration checked (2026-03-26)
+- [x] UTF-8 icon library created for chat applications (2026-03-26)
 
 ## Task Management
 - Add tasks with `[ ]` for pending
@@ -26,3 +27,14 @@
 4. Configure DNS for theoffice.ltd → 129.151.217.45
 5. Install and configure nginx/web server
 6. Update firewall rules for ports 80/443
+
+## UTF-8 Icon Library Details
+**Location**: `runtime/cto-workspace/resources/utf8-icons/`
+**Files**:
+- `utf8-icons.md` - Complete library (300+ icons)
+- `quick-reference.md` - Top 50 icons with templates
+- `README.md` - Documentation and usage guidelines
+- `raw/` - Source data from utf8icons.com
+- `fetch_icons.py` - Processing script (reference)
+
+**Usage**: Agents can copy-paste icons directly into chat applications. Organized by semantic categories for easy searching.
