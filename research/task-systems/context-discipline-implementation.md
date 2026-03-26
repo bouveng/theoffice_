@@ -1,14 +1,14 @@
-# Context Discipline Implementation (Abandoned)
+# Context Discipline Implementation (Partial — Task System Abandoned)
 
-**Status:** Abandoned in favor of GitHub Issues workflow  
+**Status:** Context discipline principles remain relevant; simple task system implementation abandoned in favor of GitHub Issues  
 **Date:** 2026-03-26  
 **Author:** CTO
 
 ## Overview
 
-This was an attempt to implement context discipline principles from `research/architecture/context-discipline.md` to combat context rot (stale sessions, bloated overhead, no memory offload, no heartbeat compression).
+Implementation of context discipline principles from `research/architecture/context-discipline.md` to combat context rot (stale sessions, bloated overhead, no memory offload, no heartbeat compression).
 
-The implementation included session hygiene, memory protocol, context compiler foundation, heartbeat loop, and model enforcement. After initial work, the decision was made to pivot to GitHub Issues for task management.
+The session hygiene, memory protocol, and model enforcement components were built and remain operational. The custom task‑system layer (context compiler, automated scheduling) has been abandoned in favor of GitHub Issues for task tracking, but the underlying discipline mechanisms stay in place.
 
 ## What Was Built
 
@@ -87,12 +87,17 @@ def log_entry(title="Task completed", summary="No details", agent="system"):
 
 3. **Models.providers:** Only DeepSeek configured (no Claude)
 
-## Why Abandoned
+## What Was Abandoned
 
-1. **Complexity:** Context discipline requires deep integration with agent spawning and memory systems.
+**Only the custom task‑system layer** (context compiler, automated scheduling, custom task queue). The underlying context discipline mechanisms (session hygiene, memory protocol, model enforcement, heartbeat compression) remain operational and relevant.
+
+**Why abandon the task‑system layer:**
+1. **Complexity:** Custom task system required deep integration with agent spawning and memory systems.
 2. **Priority:** GitHub Issues provides immediate, visible task tracking without custom infrastructure.
-3. **Maintenance:** Custom scripts require ongoing updates as OpenClaw evolves.
+3. **Maintenance:** Custom task‑system scripts require ongoing updates as OpenClaw evolves.
 4. **Adoption:** GitHub Issues is a familiar workflow for all team members.
+
+**Context discipline principles remain valid** and are now implemented via GitHub Issues workflow rather than custom scripts.
 
 ## Migration to GitHub Issues
 
