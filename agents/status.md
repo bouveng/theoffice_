@@ -7,6 +7,34 @@ Entries are separated by `---`.
 
 ## 2026-03-26 - Office Status
 
+**Office Status — 2026‑03‑26 20:00 UTC**
+
+✓ **Infra:** Gateway active (pid 69785), systemd‑managed, loopback‑only bind. System uptime 2 days, load low, disk 11% used.
+→ **Agents:** 3 agents deployed, 4 sessions in last hour. All on DeepSeek models (fallback from Claude). Latency penalty ~10–15 s.
+✓ **Memory:** 2 daily memory files (2026‑03‑25, 2026‑03‑26). Memory includes context reset protocol, monochrome icon directive, status templates.
+→ **Security:** 2 warnings (denyCommands ineffective, multi‑user heuristic). No critical issues.
+✓ **Cost:** DeepSeek only (~$0.14/M in, $0.28/M out). Estimated 99% savings vs Claude Opus/Sonnet (~$374.22/month).
+
+**Bottom line:** Operational with cost‑optimized fallback; security warnings need review.
+
+---
+
+## 2026-03-26 - Office Status
+
+**Office Status — 2026‑03‑26 16:22 UTC**
+
+⌁ **Infra:** Gateway active (pid 69785), systemd‑managed, Tailscale reachable.
+⌁ **Agents:** 3 agents, 10 sessions. All on DeepSeek models (fallback from Claude). Latency penalty ~10–15 s.
+⌁ **Memory:** 2 daily memory files (2026‑03‑25, 2026‑03‑26). ChromaDB not deployed.
+⌁ **Security:** 2 warnings (denyCommands ineffective, multi‑user heuristic).
+⌁ **Cost:** DeepSeek only (~$0.14/M in, $0.28/M out). Estimated 99% savings vs Claude Opus/Sonnet (~$374.22/month).
+
+**Bottom line:** Operational with cost‑optimized fallback; security warnings need review.
+
+---
+
+## 2026-03-26 - Office Status
+
 **Office Status — 2026‑03‑26**
 
 🟡 **Infra:** Gateway running (systemd active), Tailscale reachable, update available (2026.3.24). 2 security warnings (denyCommands ineffective, multi‑user heuristic).
@@ -16,6 +44,7 @@ Entries are separated by `---`.
 💰 **Cost:** All agents on DeepSeek Reasoner/Chat (~$0.14/M in, $0.28/M out). Estimated 99% savings vs Claude Opus/Sonnet (~$374.22/month). Latency trade‑off accepted.
 
 **Bottom line:** Office operational with DeepSeek fallback; security warnings need review.
+
 ---
 
 ## 2026-03-26 - Office Status
