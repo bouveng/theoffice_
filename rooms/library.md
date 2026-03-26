@@ -26,6 +26,13 @@ Primary LLM provider. CEO runs Opus, CTO/main run Sonnet.
 - Model overview: https://docs.anthropic.com/en/docs/about-claude/models/overview
 - Console: https://console.anthropic.com
 
+### DeepSeek
+Current primary LLM provider for all agents (CEO, CTO, main).
+- Docs: https://platform.deepseek.com/api-docs/
+- Models: DeepSeek‑Chat, DeepSeek‑Reasoner
+- Pricing: ~$0.14/M input, $0.28/M output
+- Console: https://platform.deepseek.com
+
 ### Ollama
 Local model serving for self-hosted inference (planned).
 - Docs: https://ollama.com/docs
@@ -121,5 +128,5 @@ Each file contains: company summary, contact, fit assessment, notes.
 
 ---
 
-*Last updated: 2026-03-25 by CTO*
+*Last updated: 2026-03-26 by main (DeepSeek addition)*
 *To add an entry: append to the relevant section with name, one-line description, and URL.*
