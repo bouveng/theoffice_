@@ -189,9 +189,6 @@ Free, requires registration. UK company data: officers, filings, accounts, perso
 **Wikidata** (`query.wikidata.org/sparql`)
 Free, no auth. Structured knowledge base — companies, people, places, products, with cross-references to Wikipedia and other sources. SPARQL query interface. Excellent for entity resolution: "who are the board members of this company?" with links to their professional histories.
 
-**Morten Lund** (Serial Entrepreneur)
-Danish serial entrepreneur, investor, and startup founder. Key companies: BullGuard (sold), ZYB (sold to Vodafone), Podio (sold to Citrix), Vivino, Too Good To Go, Lunar, Pleo. Known for early-stage tech investments across Europe. Active in Nordic startup ecosystem.
-
 ---
 
 ### Academic & Scientific
